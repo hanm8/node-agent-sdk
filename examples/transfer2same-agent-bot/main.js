@@ -15,6 +15,7 @@ const conf = {
     username: process.env.LP_USER,
     password: process.env.LP_PASS
 };
+
 if (process.env.LP_CSDS) {
     conf.csdsDomain = process.env.LP_CSDS;
 }
